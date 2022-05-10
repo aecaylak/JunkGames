@@ -22,13 +22,33 @@ Oyun sever 7'den 70'e herkes
 <hr>
 <h1> Sprint 1 </h1>
 <h2>Sprint Notları:</h2> Bu kısımda ürün konusunda kesin karara varılıp, ortaya çıkan projeyi geliştirmeye yönelik çalışmalara başlandı. 
-<h2>Sprint içinde tamamlanması tahmin edilen puan:</h2> 100 Puan <br>
-<h2>Puan tamamlama mantığı:</h2> Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi. <br>
+<h2>Sprint içinde tamamlanması tahmin edilen puan:</h2> 205 Puan <br>
+<h2>Puan tamamlama mantığı:</h2> Toplamda proje boyunca tamamlanması gereken 1600 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi. <br>
 <h2>Backlog düzeni ve Story seçimleri:</h2> Backlog düzeninde yapılacak işler başlıklar halinde bölünmüştür. Miro Board'da gözüken To do yapılacak işleri , ın progress kısmı devam etmekte olan çalışmaları, done kısmı ise tamamlanan konulardan oluşmaktadır. <br>
-<h2>Daily Scrum:</h2> Daily Scrum toplantılarının takım üyelerimizin ortak kararları ile beraber Discord ve Whatsapp uygulamaları üzerinden görüşmeler yapılmaktadır. <br>
-Sprint board update: Sprint board screenshot: <br>
+<h2>Daily Scrum:</h2> 
+13 Nisan 2022: Whatsapp grubu kuruldu, tanışma etkinliği yapıldı <br>
+14 Nisan: Whatsapp üzerinden yazılı şekilde ilk toplantı yapıldı ve ulaşamadığımız ekip üyemizle iletişime geçmeye çalışıldı<br>
+16 Nisan: Ekip tam bir şekilde ilk Zoom görüşmesi yapıldı, yol haritası çizildi, oyun hikayesi yazıldı, mekanikler ilk halini aldı<br>
+18-19 Nisan: Modellemeler ve mekanikler hakkında bilgi alış verişi<br>
+20 Nisan: Discord sunucusu açıldı, Canva ortak projesi, miro board açıldı.<br>
+21-24 Nisan: Konsept tasarımlar yapıldı<br>
+26 Nisan: Discord toplantısı yapıldı, GitHub repository'si oluşturuldu, görevler atandı<br>
+29 Nisan: Oyun ana mekanikleri Said ve Ali Emre tarafından oluşturuldu, çalışmalar yapılırken eş zamanlı olarak Discord ve Whatsapp'dan ekiple fikir alış verişi yapıldı<br>
+30 Nisan: Bayram öncesi son toplantı ve paydos verildi<br>
+5 Mayıs: Çalışmalara tekrar başlandı<br>
+6 Mayıs: Yeni görevler ve öncekileri gözden geçirme mini toplantısı<br>
+8 Mayıs: Yeni görev dağılımı toplantısı<br>
+9 Mayıs: GitHub proje birleştirme, yükleme ve README.md yazım toplantısı<br>
 
-![image](https://user-images.githubusercontent.com/94224971/166143884-cfcb5395-650c-4188-97c5-1c28dd0e5a3d.png)
+
+<h2>Sprint board update:</h2> <br> Sprint board screenshot: <br>
+Sprint Başı: <br>
+
+![JunkGames Proje Yönetimi](https://user-images.githubusercontent.com/94224971/167668308-af31321d-dc68-42d2-bea8-b99d88456701.jpg)
+
+Sprint Sonu: -sprint yürütülürken ufak görev değişiklikleri ve geliştirici değişimleri yaşanmıştır- <br>
+
+![image](https://user-images.githubusercontent.com/94224971/167665058-8b96d527-89bf-4df2-a11b-9767e83032d7.png)
 
 <h2>•	Sprint Review:</h2> Alınan kararlar: Bu sprintte ürünün yapısını ana düşüncesini ve mekaniklerini ortak karar ile ortaya çıkardık. Bu kısımda daha çok karakter ve tasarımına, çevresel faktörlere, atmosferine odaklandık. Bu haftadan itibaren projenin üstüne katarak ilerleyeceğiz. Çıkan ürünün test aşamalarında bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. 
 
