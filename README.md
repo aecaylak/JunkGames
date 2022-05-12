@@ -23,7 +23,7 @@ Oyun sever 7'den 70'e herkes
 <h1> Sprint 1 </h1>
 <h2>Sprint Notları:</h2> Bu kısımda ürün konusunda kesin karara varılıp, ortaya çıkan projeyi geliştirmeye yönelik çalışmalara başlandı. 
 <h2>Sprint içinde tamamlanması tahmin edilen puan:</h2> 205 Puan <br>
-<h2>Puan tamamlama mantığı:</h2> Toplamda proje boyunca tamamlanması gereken 1600 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi. <br>
+<h2>Puan tamamlama mantığı:</h2> Toplamda proje boyunca tamamlanması gereken 1600 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 200 ile başlaması gerektiğine karar verildi. <br>
 <h2>Backlog düzeni ve Story seçimleri:</h2> Backlog düzeninde yapılacak işler başlıklar halinde bölünmüştür. Miro Board'da gözüken To do yapılacak işleri , ın progress kısmı devam etmekte olan çalışmaları, done kısmı ise tamamlanan konulardan oluşmaktadır. <br>
 <h2>Daily Scrum:</h2> 
 13 Nisan 2022: Whatsapp grubu kuruldu, tanışma etkinliği yapıldı <br>
