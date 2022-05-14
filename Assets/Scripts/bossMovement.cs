@@ -11,16 +11,16 @@ public class bossMovement : MonoBehaviour
     private int oldLine;
     private int lineSelected;
     private int lineDirection;
-    public float switchLine; // Saða sola geçiþ sýklðý.
+    public float switchingDensity = 0.85f; // Saga sola gecis sikligi
     public float obstacleHeight; 
-    public float obstDensity; //default 0.4f idi mevcut durumda 0.8f'e çýkarýldý. = her 0.8 saniyede bir obstacle spawn ediliyor.
+    public float obstDensity; //0.4 yaptim degistirilebilir
     public GameObject[] obstacles;
 
     void Start()
     {
 
-        InvokeRepeating("Spawner", .2f, Random.Range(obstDensity - 0.1f, obstDensity + 0.1f)); //bunlarý Coroutine ile yapsak daha iyi olur sanýrým ama yinede çalýþýyor :) .
-        InvokeRepeating("bossMove", .2f, switchLine); 
+        InvokeRepeating("Spawner", .2f, Random.Range(obstDensity - 0.05f, obstDensity + 0.05f)); //bunlari Coroutine ile yapsak daha iyi olur sanirim ama yinede çalisiyor :) .
+        InvokeRepeating("bossMove", .2f, switchingDensity); 
     }
     void Update()
     {
@@ -60,8 +60,29 @@ public class bossMovement : MonoBehaviour
     }
     void Spawner()
     {
-        Instantiate(obstacles[Random.Range(0, obstacles.Length)], new Vector3(boss.transform.position.x, obstacleHeight, boss.transform.position.z - 1.5f), Quaternion.identity);
-    }   // position y'de random seçilen obsatacle'ýn position'unu alsýn istedim yapamadým. 
+
+        if (transform.position.x == -2 || transform.position.x == 0 || transform.position.x == 2)
+        {
+            Instantiate(obstacles[Random.Range(0, obstacles.Length)], new Vector3(boss.transform.position.x, obstacleHeight, boss.transform.position.z - 1.5f), Quaternion.identity);
+            
+        }
+        else
+        {
+            if (transform.position.x >= 1)
+            {
+                Instantiate(obstacles[Random.Range(0, obstacles.Length)], new Vector3(2, obstacleHeight, boss.transform.position.z - 1.5f), Quaternion.identity);
+
+            }else if (transform.position.x <1 && transform.position.x >-1)
+            {
+                Instantiate(obstacles[Random.Range(0, obstacles.Length)], new Vector3(0, obstacleHeight, boss.transform.position.z - 1.5f), Quaternion.identity);
+
+            }else if (transform.position.x <= -1)
+            {
+                Instantiate(obstacles[Random.Range(0, obstacles.Length)], new Vector3(-2, obstacleHeight, boss.transform.position.z - 1.5f), Quaternion.identity);
+
+            }
+        }
+    }   // position y'de random seçilen obsatacle'in position'unu alsin istedim yapamadým. @saidokur
 
 
 }
