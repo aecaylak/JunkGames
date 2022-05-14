@@ -57,7 +57,6 @@ public class bossMovement : MonoBehaviour
         {
             bossMove();
         }
-        Debug.Log(lineSelected);
     }
     void Spawner()
     {
