@@ -8,7 +8,7 @@ public class bossMovement : MonoBehaviour
     [SerializeField] private GameObject character;
     [SerializeField] private GameObject boss;
 
-
+    private int oldLine;
     private int lineSelected;
     private int lineDirection;
     public float switchLine; // Saða sola geçiþ sýklðý.
@@ -31,26 +31,33 @@ public class bossMovement : MonoBehaviour
 
     void bossMove()
     {
+        oldLine = lineSelected;
         lineSelected = Random.Range(0, 3);
-
-        if (lineSelected == 0) //kod güzelleþtirilebilir
+        if (oldLine!=lineSelected)
         {
-            lineDirection = -2;
-            transform.DOLocalMoveX(lineDirection, 0.5f);
+            if (lineSelected == 0) //kod güzelleþtirilebilir
+            {
+                lineDirection = -2;
+                transform.DOLocalMoveX(lineDirection, 0.5f);
 
-        }
-        else if (lineSelected == 1)
+            }
+            else if (lineSelected == 1)
+            {
+                lineDirection = 0;
+                transform.DOLocalMoveX(lineDirection, 0.5f);
+
+            }
+            else if (lineSelected == 2)
+            {
+                lineDirection = 2;
+                transform.DOLocalMoveX(lineDirection, 0.5f);
+            
+            }
+        }else if (oldLine==lineSelected)
         {
-            lineDirection = 0;
-            transform.DOLocalMoveX(lineDirection, 0.5f);
-
+            bossMove();
         }
-        else if (lineSelected == 2)
-        {
-            lineDirection = 2;
-            transform.DOLocalMoveX(lineDirection, 0.5f);
-
-        }
+        Debug.Log(lineSelected);
     }
     void Spawner()
     {
