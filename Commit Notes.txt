@@ -1,0 +1,6 @@
+16.5.2022 // 23:50 // @saidokur
+
+-Collectibles için örnek ses,model ve script eklendi.
+-Canvasa elementler için güç barları eklendi.
+-Hiyerarşi kısmında Environment parentı altına Collectible Spawner yerleştirildi.
+-Assets klasörlerinde sınıflandırılmalara gidildi.Scripts,Materials,Prefabs...

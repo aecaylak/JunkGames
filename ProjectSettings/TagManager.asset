@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstacle
+  - Air
+  - Water
+  - Earth
+  - Fire
+  - Collectible
+  - Plane
   layers:
   - Default
   - TransparentFX
