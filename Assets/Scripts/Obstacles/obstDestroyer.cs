@@ -9,27 +9,7 @@ public class obstDestroyer : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Obstacle")
-        {
-            Destroy(other.gameObject);
-        }
-        if (other.gameObject.tag == "Water")
-        {
-            Destroy(other.gameObject);
-        }
-        if (other.gameObject.tag == "Earth")
-        {
-            Destroy(other.gameObject);
-        }
-        if (other.gameObject.tag == "Fire")
-        {
-            Destroy(other.gameObject);
-        }
-        if (other.gameObject.tag == "Air")
-        {
-            Destroy(other.gameObject);
-        }
-        if (other.gameObject.tag == "Untagged") //Air elementinin pivotu için eklendi.
+        if (other.gameObject.tag == "Obstacle" || other.gameObject.tag == "Air" || other.gameObject.tag == "Water" || other.gameObject.tag == "Earth" || other.gameObject.tag == "Fire")
         {
             Destroy(other.gameObject);
         }

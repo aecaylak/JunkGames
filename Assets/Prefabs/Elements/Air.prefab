@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 4437863013052089992}
   - component: {fileID: 6981039469520892017}
   - component: {fileID: 106217430734302801}
+  - component: {fileID: 8944434859522963827}
   m_Layer: 0
   m_Name: Air
-  m_TagString: Untagged
+  m_TagString: Air
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,6 +115,18 @@ MonoBehaviour:
   speedX: 3
   speedY: 3
   speedZ: 3
+--- !u!114 &8944434859522963827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097204512828642590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060a5d9713b99be47beb42434fab6c09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7701921144806047374
 GameObject:
   m_ObjectHideFlags: 0
