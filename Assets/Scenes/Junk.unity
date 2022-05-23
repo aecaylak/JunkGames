@@ -233,7 +233,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24098
+  m_Name: pb_Mesh30308
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -418,8 +418,8 @@ RectTransform:
   m_GameObject: {fileID: 184769980}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.28, y: 0.28, z: 0.28}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1380328066}
   m_RootOrder: 0
@@ -575,8 +575,8 @@ RectTransform:
   m_GameObject: {fileID: 290003647}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.28, y: 0.28, z: 0.25454545}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 384617666}
   m_Father: {fileID: 74635654}
@@ -906,8 +906,8 @@ RectTransform:
   m_GameObject: {fileID: 591935430}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.28, y: 0.28, z: 0.25454545}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 283379249}
   m_Father: {fileID: 74635654}
@@ -1213,8 +1213,8 @@ RectTransform:
   m_GameObject: {fileID: 1380328065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.28, y: 0.28, z: 0.25454545}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 184769981}
   m_Father: {fileID: 74635654}
@@ -1525,8 +1525,8 @@ RectTransform:
   m_GameObject: {fileID: 2079923398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.28, y: 0.28, z: 0.25454545}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1767204520}
   m_Father: {fileID: 74635654}
