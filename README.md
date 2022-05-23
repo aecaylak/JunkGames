@@ -8,7 +8,7 @@ Said Hüseyin Okur @saidokur: Developer <br>
 <hr>
 <h1> Ürün İle İlgili Bilgiler </h1>
 <h2> Ürün İsmi: </h2>
--Unknown-
+Resquer Brownbag
 <h2> Ürün Açıklaması </h2>
 Çevre kirliliğinin Dünya'yı yaşanılmaz hale getirdiği bir evrende Dünya'yı yeniden yaşanılabilir hale getirmek isteyen kahramanımız, sonsuz platform üzerinde topladığı güçlerle yaşamın 5 ana maddesinin koruyucularını yenmek ve elde ettiği maddelerle yeni bir dünya yaşamı oluşturmak istemektedir. Element koruyucuları kaçarken oyuncuya engeller çıkarmakta ve oyuncu da engellerden kaçarken güç toplamaya çalışmaktadır. İlk plana göre 5 ayrı bölüm bulunmaktadır. Bölüm tasarımları mitoloji bulunan evrenin evrenin 5 maddesine göre yapılmıştır
 <h2> Ürün Özellikleri </h2>
@@ -92,7 +92,58 @@ AR-Ge ve proje adımlarında:
 
 <h1> Sprint 2 </h1>
 
-Coming soon..
+<h2>Sprint Notları:</h2> Bu kısımda ürün mekanikleri bitti. Oyun sesleri, modellemeleri büyük çoğunlukla bitti. Proje android versiyonuna çevrildi.
+<h2>Sprint içinde tamamlanması tahmin edilen puan:</h2>  <br>
+<h2>Puan tamamlama mantığı:</h2> Toplamda proje boyunca tamamlanması gereken 1600 puanlık backlog bulunmaktadır. <br>
+<h2>Backlog düzeni ve Story seçimleri:</h2> Backlog düzeninde yapılacak işler başlıklar halinde bölünmüştür. Miro Board'da gözüken To do yapılacak işleri , ın progress kısmı devam etmekte olan çalışmaları, done kısmı ise tamamlanan konulardan oluşmaktadır. <br>
+<h2>Daily Scrum:</h2> 
+11 Mayıs: Tüm takım arkadaşlarında Unity versiyon güncellendi. 2021.3.2f1 LTS sürümüne geçildi.
+12 Mayıs: Engeller ve toplanabilirler üzerinde çalışmalar başladı
+14 Mayıs: Daha kolay iletişim ve versiyon kontrol için tüm takım arkadaşlarında GitHub Desktop kullanıma geçildi.
+15 Mayıs: Boss, engeller ve toplanabilir öğeler oyuna entegre edildi. Tasarım toplantısı yapıldı.
+16 Mayıs: Toplanabilir öğeler ve canvas ayarlanmaları yapıldı.
+17 Mayıs: Ana karakter tasarım ve animasyonları yeniden yapıldı.
+18 Mayıs: Engel oluşma pozisyonlarındaki sorun giderildi.
+21 Mayıs: Güç fırlatma mekaniği üzerinde çalışılmaya başlandı. İlk çevre tasarımları yapıldı. Yeni engel sistemi tasarımları yapıldı.
+22 Mayıs: Sprint bitirme toplantısı 1.
+23 Mayıs: Sprint bitirme toplantısı 2. Planlanan tasarımlarda küçülmeye gidilmesi gerektiği anlaşıldı. "3. ve son sprint için ana odak tasarım, UI ve sahne geçişlerini bitirmek olacak."
+
+<h2>Sprint board update:</h2> <br> Sprint board screenshot: <br>
+Sprint Başı: <br>
+
+![image](https://user-images.githubusercontent.com/94224971/167665058-8b96d527-89bf-4df2-a11b-9767e83032d7.png)
+
+Sprint Sonu: -sprint yürütülürken ufak görev değişiklikleri ve geliştirici değişimleri yaşanmıştır- <br>
+![JunkGames Proje Yönetimi](https://user-images.githubusercontent.com/94224971/169894863-dbb847f3-36ef-4eb2-82c5-0b3608b55d9f.jpg)
+
+
+<h2>•	Sprint Review:</h2> Alınan kararlar: Bu sprintte ürünün mekanikleri genel anlamda bitmiş bulunmaktadır. Tasarımlara başlanmış, oyun müziği hazırlanmış oyuna entegre edilmemeiştir. 
+
+<h2>Sprint Retrospective:<br></h2>
+o	Takım içindeki görev dağılımı belirlendi. <br>
+o	Karakter tasarımı ve oyundaki düşman öğeler üzerinden duruldu<br>
+o	Hikaye belirlendi, oyunun giriş gelişme ve sonucu kesinleşti. <br>
+o	Unit test'ler için ayrılan efor/saat arttırıldı. <br>
+o	Eksik parçaları tamamlamak için daha fazla çalışıldı. <br>
+o	Ekip bir arada olup eksik kısımlar belirlendi. Bu durum hakkında çözüm geliştirirdi. <br>
+<br>
+
+Sprint içinden görseller:
+
+![image](https://user-images.githubusercontent.com/94224971/169891928-614c173b-52e0-483e-a1d5-9caf08f0850d.png)
+<br>
+![image](https://user-images.githubusercontent.com/94224971/169892149-5df78096-f9ad-4f5e-a34b-bb8472b56118.png)
+<br>
+![image](https://user-images.githubusercontent.com/94224971/169892197-1a6ad2ff-0e3c-4d71-be30-c9f576208093.png)
+<br>
+![image](https://user-images.githubusercontent.com/94224971/169892245-d1eeac2e-434a-4125-be87-9e4a5208a7b0.png)
+<br>
+![image](https://user-images.githubusercontent.com/94224971/169892285-42061351-c093-4c23-8fad-ff6abdb16603.png)
+<br>
+![image](https://user-images.githubusercontent.com/94224971/169892424-e71919cb-6316-40c6-8b2f-ad7718b5a553.png)
+<br>
+Sprint sonu
+
 <h1> Sprint 3 </h1>
 
 Coming soon..
