@@ -7,7 +7,7 @@ public class boss1805221650 : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject boss;
-    public GameObject[] collectibles;
+    
     private GameObject[] obstacles;
     public GameObject[] obstacless;
 
@@ -34,7 +34,7 @@ public class boss1805221650 : MonoBehaviour
     void Update()
     {
         transform.position =
-            new Vector3(transform.position.x, transform.position.y, player.transform.position.z + 13.5f);
+            new Vector3(transform.position.x, transform.position.y, player.transform.position.z + 16.5f);
     }
 
     void bossMove()
