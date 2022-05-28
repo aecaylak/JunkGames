@@ -6,7 +6,7 @@ public class c_Spawner : MonoBehaviour // Engellerle çakýþma oluyor.
 {
     public GameObject[] collectibles;
     public GameObject boss;
-    public int[] spawnPoints;
+    
 
     public float collectibleHeight;
     public float collectibleDensity;

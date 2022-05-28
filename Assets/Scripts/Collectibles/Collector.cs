@@ -22,6 +22,10 @@ public class Collector : MonoBehaviour
         {
             WaterAmount += 5f;          // Güç toplama baþýna güç barýna yansýyacak artýþ.
             WaterFilled.fillAmount = WaterAmount / 100;
+            if (WaterFilled.fillAmount > 100)
+            {
+                WaterFilled.fillAmount = 100;
+            }
             Destroy(other.gameObject);
 
             Audio.clip = AudiosList[0]; //Oynatmak için listeden audio seç.
@@ -31,6 +35,10 @@ public class Collector : MonoBehaviour
         {
             EarthAmount += 5f;
             EarthFilled.fillAmount = EarthAmount / 100;
+            if (EarthFilled.fillAmount > 100)
+            {
+                EarthFilled.fillAmount = 100;
+            }
             Destroy(other.gameObject);
 
             Audio.clip = AudiosList[1];
@@ -40,6 +48,10 @@ public class Collector : MonoBehaviour
         {
             FireAmount += 5f;
             FireFilled.fillAmount = FireAmount / 100;
+            if (FireFilled.fillAmount > 100)
+            {
+                FireFilled.fillAmount = 100;
+            }
             Destroy(other.gameObject);
 
             Audio.clip = AudiosList[2];
@@ -49,6 +61,10 @@ public class Collector : MonoBehaviour
         {
             AirAmount += 5f;
             AirFilled.fillAmount = AirAmount / 100;
+            if (AirFilled.fillAmount > 100)
+            {
+                AirFilled.fillAmount = 100; 
+            }
             Destroy(other.gameObject);
 
             Audio.clip = AudiosList[3];
