@@ -65,23 +65,75 @@ public class charMovement : MonoBehaviour
             }
         }
         
-        if (Input.GetKeyDown(KeyCode.W) && _characterController.isGrounded)  // ---------Jumping----------
-        {
-            _posY = jumpRange;
-            _animator.SetTrigger("jump");
-            _animator.SetBool("ground", false);
-        }
+        
 
         _posY -= gravity * Time.deltaTime * 1.2f;
         charVec.y = _posY;
         
-        
+        touchShot();
         checkInputs();
+        touchControl();
         
         _characterController.Move(charVec * Time.deltaTime); //hareketin yapılışını yumuşatıyor/zaman katarak yapıyor
     }
 
+    void touchControl()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch parmak = Input.GetTouch(0);
 
+            if (parmak.deltaPosition.x > 24.0f && charMove && line<2)
+            {
+                targetLine++;
+                charMove = false;
+                charVec.x = moveSpeed;
+            }
+            if (parmak.deltaPosition.x < -24.0f && charMove && line>0)
+            {
+                targetLine--;
+                charMove = false;
+                charVec.x = -moveSpeed;
+            }
+            if (parmak.deltaPosition.y > 32.0f && _characterController.isGrounded)  // ---------Jumping----------
+            {
+                _posY = jumpRange;
+                _animator.SetTrigger("jump");
+                _animator.SetBool("ground", false);
+            }
+            
+        }
+    }
+
+    public float resetTimer = 2.0f;
+    private int tapTimes = 0;
+    IEnumerator ResetTapTimes()
+    {
+        yield return new WaitForSeconds(resetTimer);
+        tapTimes = 0;
+    }
+    void touchShot()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch parmak = Input.GetTouch(0);
+            if (parmak.phase == TouchPhase.Began)
+            {
+                StartCoroutine("ResetTapTimes");
+                tapTimes++;
+                Debug.Log("singleTap");
+            }
+            if (tapTimes <= 2)
+            {
+                tapTimes = 0;
+                Debug.Log("doubleTap");
+                //doubleTap
+            } 
+        }
+
+        
+    }
+    
     void checkInputs() //klavye kontrole göre hedef, iş yapılış hızı ayarlar
     {
         if (Input.GetKeyDown(KeyCode.A) && charMove && line>0)
@@ -95,6 +147,13 @@ public class charMovement : MonoBehaviour
             targetLine++;
             charMove = false;
             charVec.x = moveSpeed;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.W) && _characterController.isGrounded)  // ---------Jumping----------
+        {
+            _posY = jumpRange;
+            _animator.SetTrigger("jump");
+            _animator.SetBool("ground", false);
         }
         
     }

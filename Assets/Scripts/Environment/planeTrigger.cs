@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class planeTrigger : MonoBehaviour
 {
-    public float transFark = 30.0f;
+    public float transFark;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
