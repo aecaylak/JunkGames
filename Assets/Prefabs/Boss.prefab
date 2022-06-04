@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5960735747975560892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7122899058768375448}
+  - component: {fileID: 265468963874029926}
+  m_Layer: 0
+  m_Name: Tracker
+  m_TagString: tracker
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7122899058768375448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960735747975560892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7192308636451359728}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &265468963874029926
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960735747975560892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8973795, y: 2.545671, z: 1.1968708}
+  m_Center: {x: 0.2409864, y: -0.12188506, z: -0.83611584}
 --- !u!1 &7192308636451359688
 GameObject:
   m_ObjectHideFlags: 0
@@ -10,15 +55,15 @@ GameObject:
   m_Component:
   - component: {fileID: 7192308636451359728}
   - component: {fileID: 7192308636451359729}
-  - component: {fileID: 7192308636451359690}
   - component: {fileID: 7192308636451359734}
   - component: {fileID: 7192308636451359735}
   - component: {fileID: 7192308636451359732}
   - component: {fileID: 7192308636451359733}
   - component: {fileID: 7192308636451359691}
+  - component: {fileID: 1334389433}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,6 +81,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7192308636625423807}
+  - {fileID: 7122899058768375448}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2941,32 +2987,11 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2040
+  m_VersionIndex: 2049
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &7192308636451359690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7192308636451359688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1f05d978cb9f7d4883a206265ab2b76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  boss: {fileID: 7192308636451359688}
-  switchingDensity: 0.8
-  obstDensity: 0.8
-  obstacleHeight: 0.8
-  obstacles:
-  - {fileID: 3727600035377213259, guid: c9417343a2a2faf4783bdcd062e4d795, type: 3}
-  - {fileID: 8335387173034463877, guid: 3133577fbecae154c91871782d385897, type: 3}
-  - {fileID: 3813133406356676112, guid: 0f4dfdaa5aca9dc4795dccb841f7ee61, type: 3}
 --- !u!114 &7192308636451359734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3081,6 +3106,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1334389433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192308636451359688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 644e32cf7aa3aee4096319a2f9aa47f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  boss: {fileID: 7192308636451359688}
+  obstacless:
+  - {fileID: 3727600035377213259, guid: c9417343a2a2faf4783bdcd062e4d795, type: 3}
+  - {fileID: 8335387173034463877, guid: 3133577fbecae154c91871782d385897, type: 3}
+  - {fileID: 3813133406356676112, guid: 0f4dfdaa5aca9dc4795dccb841f7ee61, type: 3}
+  collectibleDensity: 0.8
+  switchingDensity: 0.8
+  obstDensity: 0.8
+  obstacleHeight: 0
 --- !u!1 &7192308636625423804
 GameObject:
   m_ObjectHideFlags: 0
