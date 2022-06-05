@@ -1,10 +1,10 @@
 # JunkGames
 <h1> Ekip: </h1>
-Eda Karaman @edakaraman: Product Owner <br>
+Said Hüseyin Okur @saidokur: Product Owner <br>
 Ali Emre Çaylak @aecaylak: Scrum Master <br>
-Ayşe Çılga Doğukanlı @cilgado: Designer & Developer <br>
-Kaan Koçak @kaankock: Developer <br>
-Said Hüseyin Okur @saidokur: Developer <br>
+Ayşe Çılga Doğukanlı @cilgado: Designer<br>
+Kaan Koçak @kaankock: Music Editor & Developer <br>
+Eda Karaman @edakaraman: Developer <br>
 <hr>
 <h1> Ürün İle İlgili Bilgiler </h1>
 <h2> Ürün İsmi: </h2>
