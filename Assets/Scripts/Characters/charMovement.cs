@@ -80,19 +80,19 @@ public class charMovement : MonoBehaviour
         {
             Touch parmak = Input.GetTouch(0);
 
-            if (parmak.deltaPosition.x > 48.0f && charMove && line<2)
+            if (parmak.deltaPosition.x > 50.0f && charMove && line<2)
             {
                 targetLine++;
                 charMove = false;
                 charVec.x = moveSpeed;
             }
-            if (parmak.deltaPosition.x < -48.0f && charMove && line>0)
+            if (parmak.deltaPosition.x < -50.0f && charMove && line>0)
             {
                 targetLine--;
                 charMove = false;
                 charVec.x = -moveSpeed;
             }
-            if (parmak.deltaPosition.y > 64.0f && _characterController.isGrounded)  // ---------Jumping----------
+            if (parmak.deltaPosition.y > 80.0f && _characterController.isGrounded)  // ---------Jumping----------
             {
                 _posY = jumpRange;
                 _animator.SetTrigger("jump");

@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 86b2d0119ad18c347b8b76777fe8c4c8
   - enabled: 1
-    path: Assets/Scenes/Water.unity
-    guid: 2e2e13ea43db759418a99f4ffb19fad7
-  - enabled: 1
     path: Assets/Scenes/Earth.unity
     guid: f904255d307464b4ab000396fdf6cfc3
+  - enabled: 1
+    path: Assets/Scenes/Water.unity
+    guid: 2e2e13ea43db759418a99f4ffb19fad7
   - enabled: 1
     path: Assets/Scenes/Air.unity
     guid: 0c32e71c2c6295e45bd15ee60ce65dcc

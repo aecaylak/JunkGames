@@ -31,7 +31,7 @@ public class shooter : MonoBehaviour
         if (Input.touchCount == 1)
         {
             Touch parmak = Input.GetTouch(0);
-            if (parmak.deltaPosition.y < -64.0f && sorgu == false)
+            if (parmak.deltaPosition.y < -100.0f && sorgu == false)
             {
                 _vec = new Vector3(transform.position.x, transform.position.y, transform.position.z + 1f);
                 Instantiate(mermi, _vec, Quaternion.identity);
