@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh107920
+  m_Name: pb_Mesh24466
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1203,6 +1203,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 299663182}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[0]
+      value: 
+      objectReference: {fileID: 1480204646110042254, guid: 9faa89aee161cb9439f808b2b6ba00c1, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[1]
+      value: 
+      objectReference: {fileID: 5610849204573852794, guid: b9bcf177a2b87b94e903832d9254c1ac, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[2]
+      value: 
+      objectReference: {fileID: 1319835838616713375, guid: 8c7fbc54213d97048a1dd7940173e9a1, type: 3}
     - target: {fileID: 7192308636451359688, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_Name
       value: Boss

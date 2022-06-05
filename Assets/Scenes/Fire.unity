@@ -186,7 +186,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh107766
+  m_Name: pb_Mesh82940
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1167,6 +1167,30 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 299663182}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[0]
+      value: 
+      objectReference: {fileID: 6467658909476054453, guid: 14f5a494b53b34a43bfd0690e0cdef74, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[1]
+      value: 
+      objectReference: {fileID: 5294127141514322792, guid: fda5a9e1e8c71bb4aaf04692191ba5eb, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[2]
+      value: 
+      objectReference: {fileID: 2382885581803619084, guid: b12a28d1579595c469aa607f245ed33f, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[3]
+      value: 
+      objectReference: {fileID: 5294127141514322792, guid: fda5a9e1e8c71bb4aaf04692191ba5eb, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[4]
+      value: 
+      objectReference: {fileID: 2382885581803619084, guid: b12a28d1579595c469aa607f245ed33f, type: 3}
     - target: {fileID: 7192308636451359688, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_Name
       value: Boss

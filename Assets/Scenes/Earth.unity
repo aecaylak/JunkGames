@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108144
+  m_Name: pb_Mesh123384
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -951,10 +951,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1527430277, guid: 6f4a75af7948cdd44a15d4dbb09c8779, type: 3}
-      propertyPath: mermi
-      value: 
-      objectReference: {fileID: 1665528891003287542, guid: cc31659906aa28241aaca2fb63041a1e, type: 3}
     - target: {fileID: 4325108097893011737, guid: 6f4a75af7948cdd44a15d4dbb09c8779, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1077,6 +1073,34 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 299663182}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[0]
+      value: 
+      objectReference: {fileID: 2041178389790365105, guid: ab28c2e1647788d4fb2437a04cabeca3, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[1]
+      value: 
+      objectReference: {fileID: 3733314239880060349, guid: 49799392f631c244b83077e7023ae863, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[2]
+      value: 
+      objectReference: {fileID: 1088563229607060639, guid: 5b6c43ba24695fc4ca940a632ee2fedc, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[3]
+      value: 
+      objectReference: {fileID: 2041178389790365105, guid: ab28c2e1647788d4fb2437a04cabeca3, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[4]
+      value: 
+      objectReference: {fileID: 3733314239880060349, guid: 49799392f631c244b83077e7023ae863, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[5]
+      value: 
+      objectReference: {fileID: 1088563229607060639, guid: 5b6c43ba24695fc4ca940a632ee2fedc, type: 3}
     - target: {fileID: 265468963874029926, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -1084,6 +1108,10 @@ PrefabInstance:
     - target: {fileID: 7192308636451359688, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_Name
       value: Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192308636451359688, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7192308636451359690, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: player
@@ -1139,7 +1167,7 @@ PrefabInstance:
       objectReference: {fileID: 90465310}
     - target: {fileID: 7192308636451359729, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_VersionIndex
-      value: 2079
+      value: 2085
       objectReference: {fileID: 0}
     - target: {fileID: 7192308636451359732, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_Mesh

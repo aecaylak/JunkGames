@@ -10,13 +10,11 @@ public class specialForce : MonoBehaviour
 
     public float moveSpeed = 20f; //hareket hızı
     private Rigidbody _rb;
-    private ParticleSystem _particle;
     private void Start()
     {
         tracker = GameObject.FindGameObjectWithTag("tracker");
         player = GameObject.FindGameObjectWithTag("shooter");
         _rb = GetComponent<Rigidbody>();
-        _particle = GetComponent<ParticleSystem>();
         transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z + 1f);
         
     }
@@ -37,7 +35,7 @@ public class specialForce : MonoBehaviour
         if (other.gameObject.tag == "tracker")
         {
             Destroy(gameObject);
-            _particle.Play();
         }
     }
+
 }

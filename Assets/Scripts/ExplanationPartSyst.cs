@@ -13,16 +13,4 @@ public class ExplanationPartSyst : MonoBehaviour
         _particle.Stop();
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Obstacle")
-        {
-            _particle.Play();
-        }
-
-        if (other.gameObject.tag == "tracker")
-        {
-            _particle.Play();
-        }
-    }
 }
