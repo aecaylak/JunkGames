@@ -65,8 +65,6 @@ public class charMovement : MonoBehaviour
             }
         }
         
-        
-
         _posY -= gravity * Time.deltaTime * 1.2f; //yer çekimi simulasyonu
         charVec.y = _posY;
         
