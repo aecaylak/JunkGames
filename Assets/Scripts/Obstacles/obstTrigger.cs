@@ -3,29 +3,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class obstTrigger : MonoBehaviour
 {
 
-    [SerializeField] GameObject gameOver;
+    [SerializeField] GameObject gameOverPanel;
+    public LeaderBoard scoreCounter;
+    public ScoreManager scoreManager;
+    
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Obstacle")
         {
-            //Destroy(other.gameObject); //kesinlikle degistirilebilir
+            StartCoroutine(DieRoutine());
             Time.timeScale = 0;
-            gameOver.SetActive(true);
+            gameOverPanel.SetActive(true);
             Destroy(other.gameObject);
         }
-        
-      
+
+
     }
 
     public void CloseGameOver()
     {
-        gameOver.SetActive(false);
- 
+        gameOverPanel.SetActive(false);
+
         Time.timeScale = 1f;
     }
 
@@ -33,5 +37,13 @@ public class obstTrigger : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
+    }
+
+
+    IEnumerator DieRoutine()
+    {
+        yield return new WaitForSecondsRealtime(1f);
+        yield return scoreCounter.SubmitScoreRoutine(scoreManager.getScoreCount());
+
     }
 }

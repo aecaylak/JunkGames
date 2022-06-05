@@ -10,7 +10,7 @@ using GoogleMobileAds.Common;
 
 public class AddAds : MonoBehaviour
 {
-    [SerializeField] GameObject gameOver;
+    [SerializeField] GameObject gameOverPanel;
     [SerializeField] GameObject resumeButton;
     private RewardedAd rewardedAd;
     
@@ -37,7 +37,7 @@ public class AddAds : MonoBehaviour
     public void PlayRewarder()
     {
         Destroy(resumeButton);
-        gameOver.SetActive(false);
+        gameOverPanel.SetActive(false);
         this.rewardedAd = new RewardedAd(adUnitId);
         AdRequest request = new AdRequest.Builder().Build();
         this.rewardedAd.LoadAd(request);
@@ -55,12 +55,8 @@ public class AddAds : MonoBehaviour
     }
     public void RewardResume()
     {
-        gameOver.SetActive(false);
+        gameOverPanel.SetActive(false);
 
     }
-    public void TryAgain()
-    {
-        SceneManager.LoadScene(5);
-        Time.timeScale = 1;
-    }
+ 
 }

@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
     public GameObject scoreOver;
     public GameObject scoreBoard;
     public GameObject scoring;
-    public GameObject gameover;
+    public GameObject gameOverPanel;
 
     int scoreCount ;
 
@@ -20,7 +20,7 @@ public class ScoreManager : MonoBehaviour
         {
             scoreBoard.transform.position = scoring.transform.position;
             scoreCount += 1; 
-        }else if (gameover.activeInHierarchy == true) 
+        }else if (gameOverPanel.activeInHierarchy == true) 
         {
             scoreBoard.transform.position = scoreOver.transform.position;
         }

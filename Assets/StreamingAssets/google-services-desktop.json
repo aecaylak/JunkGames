@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "417302851635",
+    "firebase_url": "https://rescuer-d-bag-default-rtdb.firebaseio.com",
+    "project_id": "rescuer-d-bag",
+    "storage_bucket": "rescuer-d-bag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417302851635:android:a3a2e7b71ca94a947db346",
+        "android_client_info": {
+          "package_name": "com.JunkGames.RescuerD_Bag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417302851635-vt13089l519i6kmroftglqv8cpojdo7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUbY47zoI_f0Klan_3umWifykoK3KqRkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417302851635-vt13089l519i6kmroftglqv8cpojdo7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,10 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
-    [SerializeField] GameObject menu;
-    [SerializeField] GameObject levelsMenu;
-    [SerializeField] GameObject credits;
-    [SerializeField] GameObject options;
+    [SerializeField] GameObject menu,levelsMenu,credits,options,playerInputPanel,leaderBoard;
+
 
     public void NextScene()
     {
@@ -15,6 +13,7 @@ public class MenuManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    //Main Menu
     public void Menu()
     {
         menu.SetActive(true);
@@ -30,15 +29,12 @@ public class MenuManager : MonoBehaviour
         levelsMenu.SetActive(true);
 
     }
-
     public void CloseLevelsPanel()
     {
         levelsMenu.SetActive(false);
         menu.SetActive(true);
 
     }
-
-
     public void CreditsPanel()
     {
         credits.SetActive(true);
@@ -52,9 +48,25 @@ public class MenuManager : MonoBehaviour
     {
         options.SetActive(true);
     }
+    public void PlayerInput()
+    {
+        playerInputPanel.SetActive(true);
+    }  public void CloseplayerInput()
+    {
+        playerInputPanel.SetActive(false);
+    }
     public void CloseOptionsPanel()
     {
         options.SetActive(false);
+    }
+
+    public void OpenLeaderBoardPanel()
+    {
+        leaderBoard.SetActive(true);
+    }
+    public void CloseLeaderBoardPanel()
+    {
+        leaderBoard.SetActive(false);
     }
 
 
@@ -63,18 +75,26 @@ public class MenuManager : MonoBehaviour
     public void WaterLand()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
     }public void EarthLand()
     {
         SceneManager.LoadScene(2);
-    }public void AirLand()
+        Time.timeScale = 1;
+    }
+    public void AirLand()
     {
         SceneManager.LoadScene(3);
-    }public void FireLand()
+        Time.timeScale = 1;
+    }
+    public void FireLand()
     {
         SceneManager.LoadScene(4);
-    }public void JunkLand()
+        Time.timeScale = 1;
+    }
+    public void JunkLand()
     {
         SceneManager.LoadScene(5);
+        Time.timeScale = 1;
     }
 }
 
