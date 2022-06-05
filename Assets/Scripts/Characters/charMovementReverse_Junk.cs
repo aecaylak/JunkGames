@@ -64,23 +64,45 @@ public class charMovementReverse_Junk : MonoBehaviour
                 charVec.x = 0;
             }
         }
-        
-        if (Input.GetKeyDown(KeyCode.W) && _characterController.isGrounded)  // ---------Jumping----------
-        {
-            _posY = jumpRange;
-            _animator.SetTrigger("jump");
-            _animator.SetBool("ground", false);
-        }
 
         _posY -= gravity * Time.deltaTime * 1.2f;
         charVec.y = _posY;
         
         
         checkInputs();
+        touchControl();
         
         _characterController.Move(charVec * Time.deltaTime); //hareketin yapılışını yumuşatıyor/zaman katarak yapıyor
     }
 
+    
+    void touchControl()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch parmak = Input.GetTouch(0);
+
+            if (parmak.deltaPosition.x > 24.0f && charMove && line>0)
+            {
+                targetLine--;
+                charMove = false;
+                charVec.x = -moveSpeed;
+            }
+            if (parmak.deltaPosition.x < -24.0f && charMove && line<2)
+            {
+                targetLine++;
+                charMove = false;
+                charVec.x = moveSpeed;
+            }
+            if (parmak.deltaPosition.y > 32.0f && _characterController.isGrounded)  // ---------Jumping----------
+            {
+                _posY = jumpRange;
+                _animator.SetTrigger("jump");
+                _animator.SetBool("ground", false);
+            }
+            
+        }
+    }
 
     void checkInputs() //klavye kontrole göre hedef, iş yapılış hızı ayarlar
     {
@@ -95,6 +117,13 @@ public class charMovementReverse_Junk : MonoBehaviour
             targetLine++;
             charMove = false;
             charVec.x = moveSpeed;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.W) && _characterController.isGrounded)  // ---------Jumping----------
+        {
+            _posY = jumpRange;
+            _animator.SetTrigger("jump");
+            _animator.SetBool("ground", false);
         }
         
     }

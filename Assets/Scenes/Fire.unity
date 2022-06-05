@@ -186,7 +186,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh185632
+  m_Name: pb_Mesh82940
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -720,28 +720,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7192308636451359688, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
   m_PrefabInstance: {fileID: 7192308636890126677}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1334389433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334389424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 644e32cf7aa3aee4096319a2f9aa47f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 299663182}
-  boss: {fileID: 1334389424}
-  obstacless:
-  - {fileID: 3727600035377213259, guid: c9417343a2a2faf4783bdcd062e4d795, type: 3}
-  - {fileID: 8335387173034463877, guid: 3133577fbecae154c91871782d385897, type: 3}
-  - {fileID: 3813133406356676112, guid: 0f4dfdaa5aca9dc4795dccb841f7ee61, type: 3}
-  collectibleDensity: 0.8
-  switchingDensity: 0.8
-  obstDensity: 0.8
-  obstacleHeight: 0
 --- !u!1001 &1356151314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1185,21 +1163,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7192308636451359688, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
-      propertyPath: m_Name
-      value: Boss
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192308636451359690, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 299663182}
-    - target: {fileID: 7192308636451359690, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
-      propertyPath: m_Enabled
-      value: 0
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.size
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 7192308636451359690, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
-      propertyPath: obstDensity
-      value: 1
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[0]
+      value: 
+      objectReference: {fileID: 6467658909476054453, guid: 14f5a494b53b34a43bfd0690e0cdef74, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[1]
+      value: 
+      objectReference: {fileID: 5294127141514322792, guid: fda5a9e1e8c71bb4aaf04692191ba5eb, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[2]
+      value: 
+      objectReference: {fileID: 2382885581803619084, guid: b12a28d1579595c469aa607f245ed33f, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[3]
+      value: 
+      objectReference: {fileID: 5294127141514322792, guid: fda5a9e1e8c71bb4aaf04692191ba5eb, type: 3}
+    - target: {fileID: 1334389433, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: obstacless.Array.data[4]
+      value: 
+      objectReference: {fileID: 2382885581803619084, guid: b12a28d1579595c469aa607f245ed33f, type: 3}
+    - target: {fileID: 7192308636451359688, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
+      propertyPath: m_Name
+      value: Boss
       objectReference: {fileID: 0}
     - target: {fileID: 7192308636451359728, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_RootOrder
@@ -1251,7 +1245,7 @@ PrefabInstance:
       objectReference: {fileID: 90465310}
     - target: {fileID: 7192308636451359729, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_VersionIndex
-      value: 2046
+      value: 2055
       objectReference: {fileID: 0}
     - target: {fileID: 7192308636451359732, guid: c463e12bdd7f07141a4cd2eb96b5ed3e, type: 3}
       propertyPath: m_Mesh

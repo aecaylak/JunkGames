@@ -26,7 +26,7 @@ public class charMovement : MonoBehaviour
     {
         charVec.z = moveSpeed;
 
-        if (_characterController.isGrounded)
+        if (_characterController.isGrounded) //anim için
         {
             _animator.SetBool("ground", true);
         }
@@ -67,10 +67,9 @@ public class charMovement : MonoBehaviour
         
         
 
-        _posY -= gravity * Time.deltaTime * 1.2f;
+        _posY -= gravity * Time.deltaTime * 1.2f; //yer çekimi simulasyonu
         charVec.y = _posY;
         
-        touchShot();
         checkInputs();
         touchControl();
         
@@ -105,35 +104,8 @@ public class charMovement : MonoBehaviour
         }
     }
 
-    public float resetTimer = 2.0f;
-    private int tapTimes = 0;
-    IEnumerator ResetTapTimes()
-    {
-        yield return new WaitForSeconds(resetTimer);
-        tapTimes = 0;
-    }
-    void touchShot()
-    {
-        if (Input.touchCount > 0)
-        {
-            Touch parmak = Input.GetTouch(0);
-            if (parmak.phase == TouchPhase.Began)
-            {
-                StartCoroutine("ResetTapTimes");
-                tapTimes++;
-                Debug.Log("singleTap");
-            }
-            if (tapTimes <= 2)
-            {
-                tapTimes = 0;
-                Debug.Log("doubleTap");
-                //doubleTap
-            } 
-        }
-
-        
-    }
     
+
     void checkInputs() //klavye kontrole göre hedef, iş yapılış hızı ayarlar
     {
         if (Input.GetKeyDown(KeyCode.A) && charMove && line>0)

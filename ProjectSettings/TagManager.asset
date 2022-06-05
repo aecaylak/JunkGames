@@ -11,6 +11,10 @@ TagManager:
   - Fire
   - Collectible
   - Plane
+  - tracker
+  - shooter
+  - boss
+  - speForce
   layers:
   - Default
   - TransparentFX
