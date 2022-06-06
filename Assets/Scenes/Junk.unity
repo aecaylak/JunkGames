@@ -8471,7 +8471,7 @@ MonoBehaviour:
   scoreOver: {fileID: 123381060}
   scoreBoard: {fileID: 1675229196}
   scoring: {fileID: 1978452761}
-  gameOverPanel: {fileID: 0}
+  gameOverPanel: {fileID: 851579700}
 --- !u!4 &1856337360
 Transform:
   m_ObjectHideFlags: 0
