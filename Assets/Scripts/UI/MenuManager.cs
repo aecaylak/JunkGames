@@ -74,26 +74,26 @@ public class MenuManager : MonoBehaviour
 
     public void WaterLand()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(13);
         Time.timeScale = 1;
     }public void EarthLand()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(16);
         Time.timeScale = 1;
     }
     public void AirLand()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(19);
         Time.timeScale = 1;
     }
     public void FireLand()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(22);
         Time.timeScale = 1;
     }
     public void JunkLand()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(24);
         Time.timeScale = 1;
     }
 }

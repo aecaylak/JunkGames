@@ -11,15 +11,23 @@ public class ScoreManager : MonoBehaviour
     public GameObject scoring;
     public GameObject gameOverPanel;
 
-    int scoreCount ;
-
+    int scoreCount;
+    public void Start()
+    {
+        Time.timeScale = 1;
+        score.text = scoreCount.ToString();
+    }
     private void Update()
     {
+        
         score.text = scoreCount.ToString();
         if (Time.timeScale == 1)
+
         {
+            scoreCount += 1;
+           
             scoreBoard.transform.position = scoring.transform.position;
-            scoreCount += 1; 
+            
         }else if (gameOverPanel.activeInHierarchy == true) 
         {
             scoreBoard.transform.position = scoreOver.transform.position;

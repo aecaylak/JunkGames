@@ -54035,6 +54035,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 411713825, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_text
+      value: "Ana Men\xFC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 605752838, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.941483
+      objectReference: {fileID: 0}
+    - target: {fileID: 605752839, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3a072c8331f2c154b9947b6fe64f016e, type: 3}
+    - target: {fileID: 659823992, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.1999998
+      objectReference: {fileID: 0}
     - target: {fileID: 659823993, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -54043,9 +54059,41 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: TryAgain
       objectReference: {fileID: 0}
+    - target: {fileID: 1158162016, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -13.2
+      objectReference: {fileID: 0}
     - target: {fileID: 1838953019, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838953021, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_Color.a
+      value: 0.38431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942638207, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942638207, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026064561, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_text
+      value: Tekrar Dene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988143446116147222, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988143446204239653, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_text
+      value: "Ana men\xFC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988143446308339041, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_text
+      value: "Se\xE7enekler"
       objectReference: {fileID: 0}
     - target: {fileID: 1988143446504672705, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
       propertyPath: m_Name
@@ -54134,6 +54182,12 @@ PrefabInstance:
     - target: {fileID: 1988143446504672709, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988143446691310205, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_text
+      value: 'Devam et
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
@@ -54271,7 +54325,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 1
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
