@@ -9,17 +9,74 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 86b2d0119ad18c347b8b76777fe8c4c8
   - enabled: 1
-    path: Assets/Scenes/Earth.unity
-    guid: f904255d307464b4ab000396fdf6cfc3
+    path: Assets/Scenes/Cartoons/Cartoon 1.unity
+    guid: 4f69caaf06f6c8544a035a6db2a0c55f
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 2.unity
+    guid: a309c5bda46a6a04d969a2d7424d2eb8
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 3.unity
+    guid: 305f6269ab64a614199c2ed9a2147e90
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 4.unity
+    guid: 21db33e2fa0a71f478a7ffaa0d477392
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 5(5,6,7,8 png) 1.unity
+    guid: bdd187ee777b73d42b65c214779ce88d
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 6.unity
+    guid: 1a817f3e44b1e664687df779fb9cc14b
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 7.unity
+    guid: 1a3af7fa1364ca94091594fb2596b5e8
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 8.unity
+    guid: ff3adc84ca5294246a5438d84392772f
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 9.unity
+    guid: 4314200847938ba4080f8a4546b3320c
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 10.unity
+    guid: dbe5f8e848f64b44b9b37d7c1cd56036
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/Cartoon 11Son.unity
+    guid: f953f296a046b0245be0cc6772feda1b
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/WaterLand_In.unity
+    guid: c3c27b78d0b09d045ab66a82b992c0a4
   - enabled: 1
     path: Assets/Scenes/Water.unity
     guid: 2e2e13ea43db759418a99f4ffb19fad7
   - enabled: 1
+    path: Assets/Scenes/Cartoons/WaterLand_Out.unity
+    guid: 5abd24ce800d8694bba6d1370d8ca3e1
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/EarthLand_In.unity
+    guid: 19e97b1da14cde24b87655a3dafb26c4
+  - enabled: 1
+    path: Assets/Scenes/Earth.unity
+    guid: f904255d307464b4ab000396fdf6cfc3
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/EarthLand_Out.unity
+    guid: 4cbf124e0e0db7d4e9acaf3bc523caf1
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/xAirLand_In.unity
+    guid: 1b2cdf9fc6f944442a29cf40db663be7
+  - enabled: 1
     path: Assets/Scenes/Air.unity
     guid: 0c32e71c2c6295e45bd15ee60ce65dcc
   - enabled: 1
+    path: Assets/Scenes/Cartoons/xAirLand_Out.unity
+    guid: 379c3b7865b5cf64fa908371f6e0b79b
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/FireLand_In.unity
+    guid: bee70ef4fcdf02e4aa88c6912bd87417
+  - enabled: 1
     path: Assets/Scenes/Fire.unity
     guid: a9d697ebbaa4aa04a9b9a1d2ded4fff6
+  - enabled: 1
+    path: Assets/Scenes/Cartoons/FireLand_Out.unity
+    guid: d7bb2348d1ce3234b9c1e86964adea5a
   - enabled: 1
     path: Assets/Scenes/Junk.unity
     guid: 4faff6eee39713549a423b6ae40ac6f6

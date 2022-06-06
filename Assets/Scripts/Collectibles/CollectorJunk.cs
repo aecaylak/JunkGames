@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Collector : MonoBehaviour
+public class CollectorJunk : MonoBehaviour
 {
     private AudioSource Audio;
     public AudioClip[] AudiosList;
@@ -25,7 +25,7 @@ public class Collector : MonoBehaviour
             WaterFilled.fillAmount = WaterAmount / 100;
             if (WaterAmount > 100)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                
               
             }
             Destroy(other.gameObject);
@@ -39,7 +39,7 @@ public class Collector : MonoBehaviour
             EarthFilled.fillAmount = EarthAmount / 100;
             if (EarthAmount > 100)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+               
                 
             }
             Destroy(other.gameObject);
@@ -53,7 +53,7 @@ public class Collector : MonoBehaviour
             FireFilled.fillAmount = FireAmount / 100;
             if (FireAmount > 100)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+              
             }
             Destroy(other.gameObject);
 
@@ -66,7 +66,7 @@ public class Collector : MonoBehaviour
             AirFilled.fillAmount = AirAmount / 100;
             if (AirAmount > 100)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+              
             }
             Destroy(other.gameObject);
 
