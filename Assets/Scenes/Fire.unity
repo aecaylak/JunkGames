@@ -1877,6 +1877,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: NextLevel, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 1057477565, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1158162016, guid: 0886cc4a2d2e1b64e93359cb30a10967, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.27198246
@@ -2775,6 +2779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6634305483268903336, guid: 6f4a75af7948cdd44a15d4dbb09c8779, type: 3}
+      propertyPath: mermi
+      value: 
+      objectReference: {fileID: 1665528891003287542, guid: 4f747bcbe1400db40bbcd3347468b556, type: 3}
     m_RemovedComponents:
     - {fileID: 7519534661940552376, guid: 6f4a75af7948cdd44a15d4dbb09c8779, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6f4a75af7948cdd44a15d4dbb09c8779, type: 3}

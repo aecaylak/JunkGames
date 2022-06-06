@@ -4969,7 +4969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1675229197
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8438,7 +8438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1856337358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8448,9 +8448,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1856337357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5e15730be794a4a8fafd31daca4bc9, type: 3}
+  m_Script: {fileID: 11500000, guid: a4eb4a1553756e74b9699f69d0bf0401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 0}
+  scoreOver: {fileID: 0}
+  scoreBoard: {fileID: 1675229196}
+  scoring: {fileID: 1337004753}
+  gameOverPanel: {fileID: 0}
 --- !u!114 &1856337359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9079,6 +9084,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5571033122267508479, guid: 16a5ea25b73f5c748aa0cd03ba83c2fe, type: 3}
+      propertyPath: mermi
+      value: 
+      objectReference: {fileID: 1665528891003287542, guid: 4f747bcbe1400db40bbcd3347468b556, type: 3}
     m_RemovedComponents:
     - {fileID: 1243416484337123332, guid: 16a5ea25b73f5c748aa0cd03ba83c2fe, type: 3}
     - {fileID: 3261835737461419599, guid: 16a5ea25b73f5c748aa0cd03ba83c2fe, type: 3}

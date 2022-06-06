@@ -1635,6 +1635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6634305483268903336, guid: 6f4a75af7948cdd44a15d4dbb09c8779, type: 3}
+      propertyPath: mermi
+      value: 
+      objectReference: {fileID: 1665528891003287542, guid: 9ea7ff8e54be0cc468c3f4144a2705ab, type: 3}
     m_RemovedComponents:
     - {fileID: 7519534661940552376, guid: 6f4a75af7948cdd44a15d4dbb09c8779, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6f4a75af7948cdd44a15d4dbb09c8779, type: 3}
