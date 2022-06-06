@@ -53,11 +53,11 @@ Sprint Sonu: -sprint yürütülürken ufak görev değişiklikleri ve geliştiri
 <h2>•	Sprint Review:</h2> Alınan kararlar: Bu sprintte ürünün yapısını ana düşüncesini ve mekaniklerini ortak karar ile ortaya çıkardık. Bu kısımda daha çok karakter ve tasarımına, çevresel faktörlere, atmosferine odaklandık. Bu haftadan itibaren projenin üstüne katarak ilerleyeceğiz. Çıkan ürünün test aşamalarında bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. 
 
 <h3> <br> Sprint Review katılımcıları: <br> </h3>
-Eda Karaman @edakaraman: Product Owner<br>
+Said Hüseyin Okur @saidokur: Product Owner<br>
 Ali Emre Çaylak @aecaylak: Scrum Master<br>
 Ayşe Çılga Doğukanlı @cilgado: Designer & Developer<br>
-Kaan Koçak @kaankock: Developer<br>
-Said Hüseyin Okur @saidokur: Developer <br> <br>
+Kaan Koçak @kaankock: Music Editor & Developer<br>
+Eda Karaman @edakaraman: Developer <br> <br>
 
 <h2>Sprint Retrospective:<br></h2>
 o	Takım içindeki görev dağılımı belirlendi. <br>
@@ -70,7 +70,6 @@ o	Ekip bir arada olup eksik kısımlar belirlendi. Bu durum hakkında çözüm g
 
 <h2> Sprint içinde paylaşılmak istenen görseller </h2> <br> <br>
 AR-Ge ve proje adımlarında:
-
 ![image](https://user-images.githubusercontent.com/94224971/167494718-9c448465-ccb6-4801-a2df-6d15b30f8e42.png)
 ![image](https://user-images.githubusercontent.com/94224971/167495284-64218ae9-aae2-476c-be58-9d93843011a0.png)
 
@@ -93,7 +92,7 @@ AR-Ge ve proje adımlarında:
 <h1> Sprint 2 </h1>
 
 <h2>Sprint Notları:</h2> Bu kısımda ürün mekanikleri bitti. Oyun sesleri, modellemeleri büyük çoğunlukla bitti. Proje android versiyonuna çevrildi.
-<h2>Sprint içinde tamamlanması tahmin edilen puan:</h2>  <br>
+<h2>Sprint içinde tamamlanması tahmin edilen puan: 515</h2>  <br>
 <h2>Puan tamamlama mantığı:</h2> Toplamda proje boyunca tamamlanması gereken 1600 puanlık backlog bulunmaktadır. <br>
 <h2>Backlog düzeni ve Story seçimleri:</h2> Backlog düzeninde yapılacak işler başlıklar halinde bölünmüştür. Miro Board'da gözüken To do yapılacak işleri , ın progress kısmı devam etmekte olan çalışmaları, done kısmı ise tamamlanan konulardan oluşmaktadır. <br>
 <h2>Daily Scrum:</h2> 
@@ -146,4 +145,66 @@ Sprint sonu
 
 <h1> Sprint 3 </h1>
 
-Coming soon..
+<h2>Sprint Notları:</h2> Bu kısımda ürün tam anlamıyla tamamlanmıştır. Oyun arka plan müzikleri, menü tasarımları, modelleme ve çevre etkileşimi tamamlanıp oyuna yerleştirildi. Proje oynanabilir bir duruma geldi. Kullanıcıya rahatlıkla sunulabilir. 
+<h2>Sprint içinde tamamlanması tahmin edilen puan: 880</h2>  <br>
+<h2>Puan tamamlama mantığı:</h2> Proje tamamlanma süresi boyunca gereken 880 puanlık backlog bulunmaktadır. <br>
+<h2>Backlog düzeni ve Story seçimleri:</h2> Backlog üzerinde projeyi artık bitirilmesi gereken tüm eksikleri yazdık. Miro Board'da gözüken To do yapılacak işleri , ın progress kısmı devam etmekte olan çalışmaları, done kısmı ise tamamlanan konulardan oluşmaktadır. Böylelikle projeye gereken eklentileri rahatlıkla belirleyip, sıralı ve düzenli bir şekilde tamamlayıp projeyi kullanıcıya sunacak duruma getirdik.  <br>
+<h2>Daily Scrum:</h2> 
+23 Mayıs :  Sprint başlangıcı bu aşamada takım olarak discord kanalımızda tartışıldı<br>
+24 Mayıs : Discord sunucusunda canlı yayın açıp UI örnekleri hakkında konuştuk. UI konusunda karara varıldı.<br>
+25 Mayıs : Oyun karakteri hakkında araştırma yapıldı. Kaynakları araştırıp bize en uygun karakter ve karakter hikayesi üzerinde duruldu. <br>
+26 Mayıs : Karakter ve çevre tasarımları hazırlandı, denendi.<br>
+27 Mayıs : Oyuncu davranışlarını izleyip raporlayan bir sistem üzerinde ilerledik. Firebase ve LootLocker kullanarak Leaderboards yapıp eş zamanlı olarak kullanıcı verisi depoladık. <br>
+28 Mayıs : Oyun içi reklam hakkında konuşuldu.<br>
+31 Mayıs : Projeye dublaj ve altyazı ekleme hakkında konuşuldu. Dublaj veya altyazı yerine sahne geçişlerinde hikaye anlatımı benimsendi.<br>
+1 Haziran : Işık ve kamera kontrolleri tarafından son düzenlemeler yapıldı. Renkler ve açılar ayarlandı. <br>
+2 Haziran : Müzik ve sesler hakkında ufak bir toplantı düzenlendi. Çevre atmosferi ve karakter hikayesine göre demo sesler yaratılmaya başlandı. <br>
+3 Haziran : Leaderboards ve UI hepsi tamamlandı. Birkaç farklı tasarım içerisinde karakter ve oyunumuza en uygunları seçildi. Kullanılmayan dosyalar hakkında konuşulup, projeyi üstenilen boyutlara tutmaya çalışıldı. Mobil kontroller ve reklamlar tamamlandı. Projeye yerleştirirdi. <br>
+4 Haziran : Müzikler ve sesler tamamlandı. Birkaç tane demo efekler hakkında son karara varılıp, uzun soluklu oyun müziği, ses efekleri, karakter ve çevreye göre atmosferi ve hikayeyi yansıtacak müzikler çıkarıldı projeye eklendi.<br>
+5 Haziran : Projeye tamamlandı. Son commitler atıldı. Sprint notları yazıldı. Takım arkadaşları ile son bir kez konuşulup eksik kısımlarımızın olup olmadığını inceledik. <br>
+
+
+<h2>Sprint board update:</h2> <br> Sprint board screenshot: <br>
+
+![image](https://user-images.githubusercontent.com/94224971/172226296-ab897d0a-e0d4-4275-825b-b89c1290c112.png)
+<br>
+
+-Sprint yürütülürken ufak görev değişiklikleri ve geliştirici değişimleri yaşanmıştır.- <br>
+
+
+<h2>•	Sprint Review:</h2> Son olarak: Bu sprintte ürünün tamamı genel anlamda bitmiş bulunmaktadır. Bir önceki sprintte alınan kararların hepsi bu alanda bitirirmiş. Projeyi sunacak duruma gelinmiştir. 
+
+<h2>Sprint Retrospective:<br></h2>
+o Takım içindeki görev dağılımı belirlendi. <br>
+o Karakter tasarımı Blender üzerinden son rötuşlar yapıldı.  <br>
+o Hikaye tamamlandı oyun sonucu kesinleşti. <br>
+o Unity test sayısı arttırıldı. Fazlasıyla denemeler yapılıp birkaç farklı yolla oyunda ilerleyişi izlendi. <br>
+o Eksik parçalar tamamlandı. <br>
+o Miro board da altyazı ve dublaj seçeneğini eklenmedi. Onun yerine çizgisel hikaye anlatımı yapıldı. Bu kısım zaten opsiyonel olarak tutup daha iyi bir anlatımı bulduğumuz için bu kısmı iyi değerlendirdik. <br>
+
+<br>
+
+Sprint içinden görseller:
+![image](https://user-images.githubusercontent.com/94224971/172223191-ed9fb5e2-f801-4901-bee4-8d5e23802bb8.png)
+![image](https://user-images.githubusercontent.com/94224971/172223212-7c964c3a-0980-44c1-b148-8683add4cd0a.png)
+![image](https://user-images.githubusercontent.com/94224971/172223245-6d7998f0-aa07-498e-9047-bf78e8e717f3.png)
+![image](https://user-images.githubusercontent.com/94224971/172223261-1c5d0288-a080-4957-8a05-2bfffd77ebf4.png)
+![image](https://user-images.githubusercontent.com/94224971/172223279-00b55288-d702-4ead-b93d-bd1bc0969c88.png)
+![image](https://user-images.githubusercontent.com/94224971/172223297-2847b8d2-1d10-45b8-ae4f-577243b79429.png)
+![image](https://user-images.githubusercontent.com/94224971/172223379-fd80b03c-8291-4ff2-b31b-68cc9af32ae2.png)
+![image](https://user-images.githubusercontent.com/94224971/172225890-d23de56e-d768-441f-941a-37683a2a1beb.png)
+![image](https://user-images.githubusercontent.com/94224971/172225928-55c53e60-0e29-43c1-af4f-ad17d431cb89.png)
+![image](https://user-images.githubusercontent.com/94224971/172225988-42ec21ac-cf13-4dc6-9b13-4084f199956a.png)
+
+
+<br>
+Sprint sonu
+
+Projede tüm müzikler, çizimler JunkGames tarafından takım içinde yapılmıştır.
+Hazır Hazır Assetler herkesin ücretsiz kullanabileceği telif hakkı bulunmayan assetlerdir. <br>
+https://www.textures.com/ <br>
+https://pixabay.com <br>
+https://soundbible.com/ <br>
+https://www.kenney.nl/assets <br>
+https://sketchfab.com <br>
+https://assetstore.unity.com <br>
