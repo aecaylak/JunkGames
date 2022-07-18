@@ -1275,7 +1275,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1856337358}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AddAds, Assembly-CSharp
         m_MethodName: TryAgain
         m_Mode: 1
@@ -1379,6 +1379,10 @@ PrefabInstance:
     - target: {fileID: 4390058012300516615, guid: a795c00eb72e59f41912beb27a6584ae, type: 3}
       propertyPath: m_Name
       value: levelStart Junk
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390058012300516615, guid: a795c00eb72e59f41912beb27a6584ae, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7205674124156418776, guid: a795c00eb72e59f41912beb27a6584ae, type: 3}
       propertyPath: Loop
@@ -4279,7 +4283,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1856337358}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AddAds, Assembly-CSharp
         m_MethodName: PlayRewarder
         m_Mode: 1
@@ -4969,7 +4973,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1675229197
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8430,7 +8434,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1856337360}
   - component: {fileID: 1856337359}
-  - component: {fileID: 1856337358}
   - component: {fileID: 1856337361}
   m_Layer: 0
   m_Name: ScoreManager
@@ -8438,24 +8441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1856337358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856337357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb4a1553756e74b9699f69d0bf0401, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: {fileID: 0}
-  scoreOver: {fileID: 0}
-  scoreBoard: {fileID: 1675229196}
-  scoring: {fileID: 1337004753}
-  gameOverPanel: {fileID: 0}
+  m_IsActive: 1
 --- !u!114 &1856337359
 MonoBehaviour:
   m_ObjectHideFlags: 0

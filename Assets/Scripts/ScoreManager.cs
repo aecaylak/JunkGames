@@ -21,7 +21,7 @@ public class ScoreManager : MonoBehaviour
     {
         
         score.text = scoreCount.ToString();
-        if (Time.timeScale == 1)
+        if (Time.timeScale > 0.5f)
 
         {
             scoreCount += 1;
